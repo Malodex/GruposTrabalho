@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.2" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd">
+  <!-- Define Persistence Unit -->
+  <persistence-unit name="GruposTrabalhoPU">
+    <class>Grupos_Trabalho.Grupo</class>
+    <class>Grupos_Trabalho.Atuacao</class>
+    <class>Grupos_Trabalho.Pessoa</class>
+    <class>Grupos_Trabalho.Endereco</class>
+    <class>Grupos_Trabalho.TipoLogradouro</class>
+    <class>Grupos_Trabalho.Telefone</class>
+    <class>Grupos_Trabalho.DTO</class>
+    <class>Grupos_Trabalho.MembroDto</class>
+    <class>Grupos_Trabalho.PessoaBean</class>
+    <class>Grupos_Trabalho.PessoaBeanLocal</class>
+    <class>Grupos_Trabalho.PopularBanco</class>
+    <class>Grupos_Trabalho.PopularBancoLocal</class>
+    <class>Grupos_Trabalho.Util</class>
+    <properties>
+      <property name="javax.persistence.schema-generation.database.action" value="drop-and-create"/>
+    </properties>
+  </persistence-unit>
+</persistence>
